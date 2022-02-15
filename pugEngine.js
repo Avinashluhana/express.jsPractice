@@ -9,7 +9,7 @@ app.set("views", "./public/views");
 app.get("/", (req, res) => {
   res.render("index", {
     title: "Geo",
-    message: "Zindgi dadi dukhi athai piyara",
+    message: "text changed",
   });
 });
 
