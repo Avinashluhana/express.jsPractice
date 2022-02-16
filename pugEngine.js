@@ -12,6 +12,12 @@ app.get("/", (req, res) => {
     message: "text changed",
   });
 });
+app.get("/about", (req, res) => {
+  res.render("index", {
+    title: "Geo",
+    message: "text changed",
+  });
+});
 
 app.listen(8000, () => console.log("server is running"));
 
