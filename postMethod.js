@@ -12,17 +12,18 @@ app.get("/", (req, res) => {
 });
 
 app.post("/data", (req, res) => {
-    const userName= req.body.name;
-    const userEmail = req.body.email;
-    const userPass = req.body.password; 
-  res.json({
+  const userName = req.body.name;
+  const userEmail = req.body.email;
+  const userPass = req.body.password;
+  res.json(
+    {
+      success: true,
+      name: userName,
+      email: userEmail,
+      email: userEmail,
 
-    success: true,
-    name: userName,
-    email: userEmail,
-    password: userPass,
-
-  }
+      password: userPass,
+    }
     // `<h1>Data</h1>${req.body.name}${req.body.email}${req.body.password} `
   );
 });
