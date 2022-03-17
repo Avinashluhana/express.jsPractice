@@ -20,8 +20,6 @@ app.post("/data", (req, res) => {
       success: true,
       name: userName,
       email: userEmail,
-      email: userEmail,
-
       password: userPass,
     }
     // `<h1>Data</h1>${req.body.name}${req.body.email}${req.body.password} `
