@@ -15,8 +15,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/form.html"));
 });
 
-
-
     // `<h1>Data</h1>${req.body.name}${req.body.email}${req.body.password} `
 
  
