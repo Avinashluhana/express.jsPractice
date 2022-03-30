@@ -16,5 +16,5 @@ app.get("/", (req, res) => {
 // `<h1>Data</h1>${req.body.name}${req.body.email}${req.body.password} `
 
 app.listen(port, () => {
-  console.log(`server is running on ${port}`);
+  console.log(`server hale payo hin  ${port} te`);
 });
